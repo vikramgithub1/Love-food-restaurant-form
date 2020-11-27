@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+
+.container{
+    color: rgb(24, 22, 22);
+    max-width: 80%;
+    background-color:purple;
+    margin: auto;
+    padding: 34px;
+    margin: auto;
+
+}
+
+.container,h1,p{
+    text-align: center;
+    color: aliceblue;
+}
+
+p{
+    font-size: 17px;
+}
+
+input,textarea {
+    width: 80%;
+    margin: 9px auto;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid black;
+    border-radius: 6px;
+    outline: none;
+    
+}
+
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.btn{
+    color: white;
+    background-color: purple;
+    padding: 8px 12px;
+    font-size: 20px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+/* .bg{
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.1;
+}
+ */
+
+ .submsg{
+     color: rgb(249, 250, 249);
+     /* font-size: 20px; */
+ }
